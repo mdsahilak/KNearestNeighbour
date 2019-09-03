@@ -1,3 +1,4 @@
+- - -
 # KNearestNeighbour using Swift
 ## Implementing a KNearestNeighbour Classifier in swift and comparing it with a python equivalent.
 ### This Repo has a python and a swift version of a simple k=1, KNearestNeighbour classifier used to classify flowers using the Iris Dataset.
@@ -11,3 +12,4 @@
 * Also the unlike the python version, Swift does not have scikit's load_irirs() function to load the iris dataset. So i used a helper struct to hold the data and metadata. 
 
 * That said, I think swift is the future of ML. Both the python and swift version look similar except for python's libraries part. That will all disappear as the S4TF ecosystem matures. #SwiftWorldDomination 😂👊 .
+- - -
