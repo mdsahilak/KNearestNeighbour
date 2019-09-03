@@ -6,8 +6,8 @@
 
 * The main pain point was that i could not just import scikit-learn or numpy or other Machine Learning and Mathematical libraries. So, i had to use custom implementations of random train_test split, accuracy calculations and euclidean distance calculation.
 
-* I could have used the wonderful [Swift For TensorFlow](https://github.com/tensorflow/swift) and its python interop feature, but that would require installing another toolchain and changing the build settings. Also, this is a very basic algorithm, so.
+* I could have used the wonderful [Swift For TensorFlow - S4TF ](https://github.com/tensorflow/swift) and its python interop feature, but that would require installing another toolchain and changing the build settings. Also, this is a very basic algorithm, so.
 
 * Also the unlike the python version, Swift does not have scikit's load_irirs() function to load the iris dataset. So i used a helper struct to hold the data and metadata. 
 
-* That said, I think swift is the future of ML.
+* That said, I think swift is the future of ML. Both the python and swift version look similar except for python's libraries part. That will all disappear as the S4TF ecosystem matures. #SwiftWorldDomination 😂👊 .
