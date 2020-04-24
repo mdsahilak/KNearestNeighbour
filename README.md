@@ -1,8 +1,8 @@
-- - -
+
 # KNearestNeighbour using Swift
 ## Implementing a KNearestNeighbour Classifier in Swift and comparing it with a python equivalent.
 ### This Repo has a Python and Swift version of a simple k=1 NearestNeighbour Classifier used to classify flowers in the Iris Dataset.
-- - -
+
 > Tried implementing a K-=1 NearestNeighbour Classifier using Swift. Feedback/Issues appreciated.
 
 * The main pain point was that i could not just import scikit-learn or numpy or other Machine Learning or Mathematical libraries. So, i had to use custom implementations of random train_test split, accuracy calculations and euclidean distance calculation(These can be found in the sources directory of the Xcode Playground or in Swift/JustTheCode if you do not have Xcode).
