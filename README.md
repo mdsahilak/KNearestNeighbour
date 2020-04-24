@@ -13,5 +13,5 @@
 
 * Both the Python and Swift version look quite similar but the swift one has types(Thank God!).
 
-* If you would like to see another Classifier Algorithm in Swift, heres a [Generic Decision Tree Classifier] (https://github.com/mdsahilak/DecisionTreeClassifier)
+* If you would like to see another Classifier Algorithm in Swift, heres a [Generic Decision Tree Classifier](https://github.com/mdsahilak/DecisionTreeClassifier)
 - - -
