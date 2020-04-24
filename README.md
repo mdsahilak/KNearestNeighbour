@@ -7,7 +7,7 @@
 
 * The main pain point was that i could not just import scikit-learn or numpy or other Machine Learning or Mathematical libraries. So, i had to use custom implementations of random train_test split, accuracy calculations and euclidean distance calculation(These can be found in the sources directory of the Xcode Playground or in Swift/JustTheCode if you do not have Xcode).
 
-* I could have used [Swift For TensorFlow - S4TF ](https://github.com/tensorflow/swift) and tye Python Interop feature, but that would require installing another toolchain and changing the build settings. Moreover, this is a very basic algorithm, so it is not worth messing with the build settings 😆.
+* I could have used [Swift For TensorFlow - S4TF ](https://github.com/tensorflow/swift) and the Python Interop feature, but that would require installing another toolchain and changing the build settings. Moreover, this is a very basic algorithm, so it is not worth messing with the build settings 😆.
 
 * Unlike the python version, Swift does not have scikit's load_irirs() function (from Scikit) to load the iris dataset. So I used a helper struct to hold the data and metadata. 
 
